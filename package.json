@@ -1,0 +1,23 @@
+{
+  "name": "lerna-eyeglass",
+  "version": "0.0.1",
+  "description": "showing a bug with sass lerna and eyeglass",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "sass": "lerna exec npm run sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottnath/lerna-eyeglass.git"
+  },
+  "author": "Scott Nath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottnath/lerna-eyeglass/issues"
+  },
+  "homepage": "https://github.com/scottnath/lerna-eyeglass#readme",
+  "dependencies": {
+    "lerna": "^2.9.0"
+  }
+}

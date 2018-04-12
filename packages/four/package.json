@@ -1,0 +1,26 @@
+{
+  "name": "lerna-eyeglass-four",
+  "version": "0.0.1",
+  "description": "showing a bug with sass lerna and eyeglass",
+  "main": "./",
+  "scripts": {
+    "sass": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottnath/lerna-eyeglass.git"
+  },
+  "author": "Scott Nath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottnath/lerna-eyeglass/issues"
+  },
+  "homepage": "https://github.com/scottnath/lerna-eyeglass#readme",
+  "dependencies": {
+    "eyeglass": "^1.5.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1",
+    "lerna": "^2.9.0",
+    "lerna-eyeglass-one": "*"
+  }
+}
